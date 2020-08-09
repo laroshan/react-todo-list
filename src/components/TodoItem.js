@@ -5,6 +5,7 @@ export default class TodoItem extends Component {
         return (
             <div>
                 <h3>TodoItem</h3>
+                <h7>git check</h7>
             </div>
         )
     }
