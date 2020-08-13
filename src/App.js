@@ -59,7 +59,7 @@ class App extends Component{
    this.setState(
      {
        items: filteredItems,
-       item: selectedItem,
+       item: selectedItem.title,
        id:  id,
        editItem: true
 

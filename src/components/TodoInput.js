@@ -14,7 +14,7 @@ export default class extends Component {
                         </div>
                     </div>
                     <input type="text" className="form-control text-capitalize"  placeholder="add todo item"
-                    value={item.title} onChange={handleChange}/>
+                    value={item} onChange={handleChange}/>
                 </div>
                 <button type="submit" 
                 disabled={item?false:true}
